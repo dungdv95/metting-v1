@@ -1,0 +1,150 @@
+.prejoin_content {
+    background-image: url(/svgs/bgmeeting.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.prejoin_header {
+    height: 95px;
+}
+.h_full_devider {
+    height: 100%;
+    border-left: 1px solid #ffffff;
+}
+.main_video_right {
+    height: 100%;
+    width: 100%;
+}
+
+.back_ground_image {
+    background-image: url(/images/back_ground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(8px); */
+    opacity: 0.5;
+    /* z-index: -1; */
+}
+.back_ground_no_avatar {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.avata_custom {
+  
+}
+.center_avatar {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon_track_custom {
+    position: relative;
+    text-align: center;
+    bottom: 68px;
+}
+.bor_radius_custom {
+    border-radius: 40px !important;
+    padding: 15px 15px !important;
+}
+.size_custom {
+    width: 200px;
+    height: 200px;
+}
+.pop_cam_custom {
+
+}
+.radio_custom {
+    --icon-size: 26px;
+    --font-size: 20px;
+    --gap: 20px;
+}
+
+/****************Media**********************/
+@media screen and (min-width:200px) {
+    /* .center_avatar {
+        top: 38%;
+        left: 30%;    
+    } */
+    .radio_custom {
+        --icon-size: 15px;
+        --font-size: 13px;
+        --gap: 14px;
+    }
+}
+@media screen and (min-width:380px) {
+    /* .center_avatar {
+        top: 38%;
+        left: 30%;    
+    } */
+    .radio_custom {
+        --icon-size: 20px;
+        --font-size: 15px;
+        --gap: 15px;
+    }
+}
+@media screen and (min-width:500px) {
+    /* .center_avatar {
+        top: 30%;
+        left: 30%; 
+    } */
+    .radio_custom {
+        --icon-size: 20px;
+        --font-size: 15px;
+        --gap: 15px;
+    }
+}
+@media screen and (min-width:640px) {
+    /* .center_avatar {
+        top: 30%;
+        left: 30%; 
+    } */
+    .radio_custom {
+        --icon-size: 26px;
+        --font-size: 20px;
+        --gap: 20px;
+    }
+}
+@media screen and (min-width:768px) {
+    /* .center_avatar {
+        top: 36%;
+        left: 35%;  
+    } */
+    .radio_custom {
+        --icon-size: 26px;
+        --font-size: 20px;
+        --gap: 20px;
+    }
+}
+@media screen and (min-width:1024px) {
+    /* .center_avatar {
+        top: 36%;
+        left: 35%;    
+    } */
+    .radio_custom {
+        --icon-size: 26px;
+        --font-size: 20px;
+        --gap: 20px;
+    }
+}
+@media screen and (min-width:1280px) {
+    /* .center_avatar {
+        top: 36%;
+        left: 35%;    
+    } */
+    .radio_custom {
+        --icon-size: 26px;
+        --font-size: 20px;
+        --gap: 20px;
+    }
+}
+@media screen and (min-width:1536px) {
+    /* .center_avatar {
+        top: 36%;
+        left: 35%;    
+    } */
+    .radio_custom {
+        --icon-size: 26px;
+        --font-size: 20px;
+        --gap: 20px;
+    }
+}
+

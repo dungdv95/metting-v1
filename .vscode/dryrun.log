@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/thanhdaon/workspace/meeting/ui'
+make: Leaving directory '/home/thanhdaon/workspace/meeting/ui'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
